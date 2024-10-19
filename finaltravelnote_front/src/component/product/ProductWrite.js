@@ -10,6 +10,7 @@ import Swal from "sweetalert2";
 const ProductWrite = () => {
   const backServer = process.env.REACT_APP_BACK_SERVER;
   const navigate = useNavigate();
+  console.log(1);
 
   // 로그인 회원 정보
   const [loginEmail, setLoginEmail] = useRecoilState(loginEmailState);
